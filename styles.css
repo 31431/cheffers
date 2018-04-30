@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat'; }
+
+/* navbar */
+.navbar {
+  height: 55px; }
+  .navbar .navbar-logo {
+    display: inline-block;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-transform: uppercase; }
+  .navbar .navbar-nav {
+    float: right;
+    display: flex; }
+    .navbar .navbar-nav .nav-link {
+      margin: 10px;
+      color: #fff;
+      text-decoration: none; }
+
+/* btn */
+.btn {
+  border: none;
+  background: #b71c1c;
+  color: white;
+  padding: 15px 25px;
+  margin: 8px;
+  font-size: 1.2em;
+  cursor: pointer; }
+
+/* text */
+.title, .header .header-body .tagline {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 2.5em; }
+
+.body {
+  line-height: 1.8em;
+  max-width: 750px;
+  display: inline-block;
+  text-align: left;
+  margin: 12px 0; }
+
+/* sections */
+.flex-container {
+  display: flex;
+  justify-content: space-evenly; }
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("assets/header.jpg");
+  background-size: 100%;
+  height: 400px;
+  padding: 20px;
+  color: #fff; }
+  .header .header-body {
+    text-align: center; }
+    .header .header-body .tagline {
+      margin: 50px; }
+
+.features {
+  padding: 50px;
+  text-align: center; }
+  .features .feature-text {
+    align-self: center;
+    max-width: 500px; }
+  .features .feature-img {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%; }
+    .features .feature-img img {
+      display: inline;
+      margin: 0 auto; }
+
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("assets/about-img.jpg");
+  background-size: cover;
+  height: 400px;
+  color: white;
+  text-align: center;
+  padding: 80px; }
+
+.footer {
+  text-align: center;
+  height: 100px;
+  background-color: #b71c1c;
+  color: white;
+  padding: 40px; }
+  .footer .btn {
+    padding: 12px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms linear; }
+    .footer .btn:hover {
+      background: #fff;
+      color: #b71c1c; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,145 @@
+$red: #b71c1c; 
+
+* {
+  box-sizing: border-box; 
+  margin: 0; 
+  font-family: 'Montserrat';
+}
+
+/* navbar */ 
+.navbar {
+  height: 55px; 
+
+  .navbar-logo { 
+    display: inline-block; 
+    margin: 10px;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav {
+    float: right;
+    display: flex;
+    
+    .nav-link { 
+      margin: 10px; 
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+/* btn */ 
+.btn {
+  border: none;
+  background: $red;
+  color: white;
+  padding: 15px 25px;
+  margin: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+/* text */ 
+.title {
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+.body {
+  line-height: 1.8em;
+  max-width: 750px; 
+  display: inline-block;
+  text-align: left;
+  margin: 12px 0; 
+}
+
+/* sections */ 
+.flex-container {
+  display: flex; 
+  justify-content: space-evenly; 
+}
+
+.header {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.35), 
+    rgba(0, 0, 0, 0.35)
+  ), url('assets/header.jpg');
+  background-size: 100%;
+  height: 400px;
+  padding: 20px;
+  color: #fff; 
+
+  .header-body {
+    text-align: center;
+
+    .tagline { 
+      @extend .title;
+      margin: 50px;
+    }
+  }
+}
+
+.features {
+  padding: 50px;
+  text-align: center;
+
+  .feature-text {
+    align-self: center;
+    max-width: 500px;
+  }
+
+  .feature-img {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+
+    img {
+      display: inline;
+      margin: 0 auto;
+    }
+  }
+}
+
+.about {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.55), 
+    rgba(0, 0, 0, 0.55)
+  ), url('assets/about-img.jpg');
+  background-size: cover;
+  height: 400px;
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+.footer {
+  text-align: center;
+  height: 100px; 
+  background-color: $red;
+  color: white;
+  padding: 40px;
+
+  .btn {
+    padding: 12px;
+    margin: 10px; 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms linear;
+    
+    &:hover {
+      background: #fff;
+      color: $red; 
+    }
+  }
+}
