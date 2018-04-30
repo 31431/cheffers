@@ -105,4 +105,25 @@
       background: #fff;
       color: #b71c1c; }
 
+@media (max-width: 800px) {
+  .navbar .navbar-nav {
+    visibility: hidden; }
+
+  .header {
+    background-size: auto;
+    height: auto; }
+
+  .header .header-body .tagline, .title, .header .header-body .tagline {
+    font-size: 2em; }
+
+  .features {
+    padding: 30px; }
+
+  .features .feature-img {
+    display: none; }
+
+  .about {
+    height: auto;
+    padding: 30px; } }
+
 /*# sourceMappingURL=styles.css.map */

@@ -143,3 +143,28 @@ $red: #b71c1c;
     }
   }
 }
+
+@media (max-width: 800px) {
+  .navbar {
+    .navbar-nav { visibility: hidden; }
+  }
+
+  .header { 
+    background-size: auto; 
+    height: auto;
+  }
+
+  .header .header-body .tagline, .title {
+    font-size: 2em;
+  }
+
+  .features { padding: 30px; }
+  .features .feature-img {
+    display: none;
+  }
+
+  .about {
+    height: auto;
+    padding: 30px;
+  }
+}
