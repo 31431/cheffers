@@ -105,13 +105,13 @@
       background: #fff;
       color: #b71c1c; }
 
+@media (max-width: 1400px) {
+  .header {
+    background-size: auto;
+    height: auto; } }
 @media (max-width: 800px) {
   .navbar .navbar-nav {
     visibility: hidden; }
-
-  .header {
-    background-size: auto;
-    height: auto; }
 
   .header .header-body .tagline, .title, .header .header-body .tagline {
     font-size: 2em; }

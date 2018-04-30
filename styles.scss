@@ -144,14 +144,16 @@ $red: #b71c1c;
   }
 }
 
-@media (max-width: 800px) {
-  .navbar {
-    .navbar-nav { visibility: hidden; }
-  }
-
+@media (max-width: 1400px) {
   .header { 
     background-size: auto; 
     height: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    .navbar-nav { visibility: hidden; }
   }
 
   .header .header-body .tagline, .title {
